@@ -10,7 +10,7 @@ f = open('thinks.txt', 'r', encoding='UTF-8')
 thinks = f.read().split('\n')
 f.close()
 # Создаем бота (+ токен, полученный от @BotFather)
-bot = telebot.TeleBot('5620921991:AAHw6Yf2dAz3HyIUnGRgCcnov6uqfYfAiYk')
+bot = telebot.TeleBot('5620921991:AAHw6Yf2dAz3HyIUnGRg')
 # Команда start
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
